@@ -1,19 +1,14 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ComponentLifeCycle } from "./ComponentLifeCycle";
-import Home from "./Home";
 import UserProfile from "./UserProfile";
+import { MyForm } from "./MyForm";
 function App() {
   return (
-    <div className="home">
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/ComponentLifeCycle" element={<ComponentLifeCycle />} />
-          <Route path="/UserProfile" element={<UserProfile />} />
-        </Routes>
-      </Router>
+    <div>
+      {/* <ComponentLifeCycle></ComponentLifeCycle> */}
+      {/* <UserProfile></UserProfile> */}
+      <MyForm></MyForm>
     </div>
   );
 }

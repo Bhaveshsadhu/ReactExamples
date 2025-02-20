@@ -1,5 +1,5 @@
 body {
-  background: black;
+  /* background: url("./assets/img/a.jpg"); */
   color: red;
 }
 
@@ -10,7 +10,7 @@ body {
   height: 100vh;
 }
 .card {
-  color: white;
+  /* color: white; */
   box-shadow: 0 0 15px gray;
   width: 450px;
   padding: 2rem;

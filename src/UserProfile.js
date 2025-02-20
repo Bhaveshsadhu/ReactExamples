@@ -1,16 +1,14 @@
+import image from "./assets/img/b.png";
 const UserProfile = () => {
   return (
     <>
       <div className="card">
         <div className="img">
-          <img
-            src="https://randomuser.me/api/portraits/men/26.jpg"
-            alt="Jorge"
-          ></img>
+          <img src={image} alt="Jorge"></img>
         </div>
 
         <div className="user-info">
-          <h1>Jorge Bailey</h1>
+          <h1 className="text-danger">Jorge Bailey</h1>
           <p>
             Contrary to popular belief, Lorem Ipsum is not simply random text.
             It has roots in a piece of classical Latin literature from 45 BC,
